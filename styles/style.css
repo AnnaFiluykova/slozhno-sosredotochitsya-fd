@@ -84,6 +84,7 @@
 
 .header__theme-menu-button:focus {
   outline: none;
+  border-bottom: 1px solid var(--border-color);;
 }
 
 .header__theme-menu-button:focus-visible {
@@ -91,6 +92,7 @@
 }
 
 .header__theme-menu-button_active {
+  pointer-events: none;
   border: 1px solid var(--border-color);
 }
 
