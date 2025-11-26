@@ -4,7 +4,6 @@
   background-image: var(--bg-image);
   background-size: cover;
   background-position: center;
-  z-index: -1;
   background-attachment: fixed;
 }
 
@@ -84,11 +83,10 @@
 
 .header__theme-menu-button:focus {
   outline: none;
-  border-bottom: 1px solid var(--border-color);;
 }
 
 .header__theme-menu-button:focus-visible {
-  outline: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .header__theme-menu-button_active {
@@ -194,7 +192,7 @@
 }
 
 .section__card-link:hover {
-  border-bottom: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--text-color);
 }
 
 .section__card-link:focus {
@@ -202,7 +200,7 @@
 }
 
 .section__card-link:focus-visible {
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid var(--text-color);
 }
 
 .section__card-images {

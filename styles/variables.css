@@ -1,7 +1,7 @@
 :root {
   --main-font: 'IBM Plex mono';
   --text-size: 18px;
-  --bg-image: url('/images/cover-image.png');
+  --bg-image: url('../images/cover-image-dark.png');
   --bg-color: #000028;
   --text-color: #F1B2CE;
   --text-accent-color: #FF0070;
