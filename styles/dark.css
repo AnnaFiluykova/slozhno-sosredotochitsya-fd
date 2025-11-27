@@ -8,4 +8,8 @@
   --block-title-text-color: #000028;
   --border-color: #FF0070;
   --border-color-opacity: #FF007066;
+
+  .header__decoration-element {
+    display: flex;
+  }
 }

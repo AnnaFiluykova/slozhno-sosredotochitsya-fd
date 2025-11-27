@@ -344,4 +344,8 @@
   .footer {
     min-height: 768px;
   }
+
+  .footer__title {
+    text-shadow: 2px 2px 0 #FF0070;
+  }
 }
